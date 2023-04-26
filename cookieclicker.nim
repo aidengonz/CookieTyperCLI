@@ -23,6 +23,7 @@ while done == false:
     if input == "1":
         # Make cookies
         cookies = cookies + gain
+        jackpot = jackpot + gain * 2
         if cookies > highscore:
             highscore = cookies
     elif input == "2":
