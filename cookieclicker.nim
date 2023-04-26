@@ -7,6 +7,7 @@ var
     gain: int = 1
     price: int = 2
     highscore: int = 0
+    jackpot: int = gain * 200
 
 # Instructions
 stdout.styledWriteLine({styleBright, styleUnderscore}, "CLI Cookile Typer/Clicker")
