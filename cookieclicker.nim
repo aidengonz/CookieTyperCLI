@@ -42,7 +42,7 @@ while done == false:
         echo "Your highscore was ", highscore
     elif input == "4":
         # Random Help or Hurt
-        let marbles = [-1, -100, 200, -5, 5, -10, -10, -50, 2000, -1000]
+        let marbles = [-1, -100, 200, -5, 5, -10, -10, -50, 2000 + jackpot, -1000]
         let pick = sample(marbles)
         cookies = cookies + pick
         if cookies > highscore:
